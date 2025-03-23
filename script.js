@@ -4,11 +4,11 @@ class Car {
 		this._make = make;
 		this._model = model;
 	}
-	make(){
+	get make(){
 		return this._make;
 	}
 	
-	model(){
+	get model(){
 		return this._model;
 	}
 	
