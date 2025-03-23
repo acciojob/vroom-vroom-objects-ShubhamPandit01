@@ -4,7 +4,14 @@ class Car {
 		this._make = make;
 		this._model = model;
 	}
-
+	make(){
+		return this._make;
+	}
+	
+	model(){
+		return this._model;
+	}
+	
 	getMakeModel(){
 		return this._make +" "+ this._model;
 	}
@@ -16,6 +23,10 @@ class SportsCar extends Car {
 		this._topSpeed = topSpeed;
 	}
 
+	get topSpeed() {
+	    return this._topSpeed;
+	}
+	
 	getTopSpeed(){
 		return this._topSpeed;
 	}
